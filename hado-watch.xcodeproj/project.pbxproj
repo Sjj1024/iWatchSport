@@ -1,0 +1,1197 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E45F28022C3B8E8B00340D46 /* hado_watchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45F28012C3B8E8B00340D46 /* hado_watchApp.swift */; };
+		E45F28042C3B8E8B00340D46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45F28032C3B8E8B00340D46 /* ContentView.swift */; };
+		E45F28062C3B8E8D00340D46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E45F28052C3B8E8D00340D46 /* Assets.xcassets */; };
+		E45F28092C3B8E8D00340D46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E45F28082C3B8E8D00340D46 /* Preview Assets.xcassets */; };
+		E45F28132C3B8E8D00340D46 /* hado_watchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45F28122C3B8E8D00340D46 /* hado_watchTests.swift */; };
+		E45F281D2C3B8E8D00340D46 /* hado_watchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45F281C2C3B8E8D00340D46 /* hado_watchUITests.swift */; };
+		E45F281F2C3B8E8D00340D46 /* hado_watchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45F281E2C3B8E8D00340D46 /* hado_watchUITestsLaunchTests.swift */; };
+		E45F28252C3B8E8D00340D46 /* hado-watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E45F28242C3B8E8D00340D46 /* hado-watch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E45F282A2C3B8E8D00340D46 /* hado_watchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45F28292C3B8E8D00340D46 /* hado_watchApp.swift */; };
+		E45F282C2C3B8E8D00340D46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45F282B2C3B8E8D00340D46 /* ContentView.swift */; };
+		E45F282E2C3B8E8E00340D46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E45F282D2C3B8E8E00340D46 /* Assets.xcassets */; };
+		E45F28312C3B8E8E00340D46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E45F28302C3B8E8E00340D46 /* Preview Assets.xcassets */; };
+		E45F283B2C3B8E8E00340D46 /* hado_watch_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45F283A2C3B8E8E00340D46 /* hado_watch_Watch_AppTests.swift */; };
+		E45F28452C3B8E8E00340D46 /* hado_watch_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45F28442C3B8E8E00340D46 /* hado_watch_Watch_AppUITests.swift */; };
+		E45F28472C3B8E8E00340D46 /* hado_watch_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45F28462C3B8E8E00340D46 /* hado_watch_Watch_AppUITestsLaunchTests.swift */; };
+		E4FAC8F22C3BB69100ADB7A2 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FAC8F12C3BB69100ADB7A2 /* MotionManager.swift */; };
+		E4FAC8F62C3BB74700ADB7A2 /* SocketIO in Frameworks */ = {isa = PBXBuildFile; productRef = E4FAC8F52C3BB74700ADB7A2 /* SocketIO */; };
+		E4FAC8F82C3BB7AE00ADB7A2 /* KeyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FAC8F72C3BB7AE00ADB7A2 /* KeyChain.swift */; };
+		E4FAC8FA2C3BB83900ADB7A2 /* MediaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FAC8F92C3BB83900ADB7A2 /* MediaManager.swift */; };
+		E4FAC8FF2C3BBA5C00ADB7A2 /* game..proto in Sources */ = {isa = PBXBuildFile; fileRef = E4FAC8FE2C3BBA5C00ADB7A2 /* game..proto */; };
+		E4FAC9012C3BBB3900ADB7A2 /* MotionData.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FAC9002C3BBB3900ADB7A2 /* MotionData.pb.swift */; };
+		E4FAC9042C3BBB7400ADB7A2 /* SwiftProtobuf in Frameworks */ = {isa = PBXBuildFile; productRef = E4FAC9032C3BBB7400ADB7A2 /* SwiftProtobuf */; };
+		E4FAC9072C3BBC6500ADB7A2 /* WitRigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FAC9062C3BBC6500ADB7A2 /* WitRigView.swift */; };
+		E4FAC9092C3BBC7D00ADB7A2 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FAC9082C3BBC7D00ADB7A2 /* PlayerView.swift */; };
+		E4FAC90B2C3BBC9800ADB7A2 /* ParameterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FAC90A2C3BBC9800ADB7A2 /* ParameterView.swift */; };
+		E4FAC90E2C3BBCFD00ADB7A2 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FAC90D2C3BBCFD00ADB7A2 /* HealthKitManager.swift */; };
+		E4FAC9132C3BBD5000ADB7A2 /* HeartIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FAC9122C3BBD5000ADB7A2 /* HeartIcon.swift */; };
+		E4FAC9152C3BBDAC00ADB7A2 /* WatchSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FAC9142C3BBDAC00ADB7A2 /* WatchSessionDelegate.swift */; };
+		E4FAC9172C3BBE3D00ADB7A2 /* HeartAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FAC9162C3BBE3D00ADB7A2 /* HeartAnimationView.swift */; };
+		E4FAC9192C3BBE6800ADB7A2 /* HeartBeatText.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FAC9182C3BBE6800ADB7A2 /* HeartBeatText.swift */; };
+		E4FAC91B2C3BC16A00ADB7A2 /* WorkoutListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FAC91A2C3BC16A00ADB7A2 /* WorkoutListScreen.swift */; };
+		E4FAC91F2C3BDC4F00ADB7A2 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E4FAC91E2C3BDC4F00ADB7A2 /* Alamofire */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E45F280F2C3B8E8D00340D46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E45F27F62C3B8E8B00340D46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E45F27FD2C3B8E8B00340D46;
+			remoteInfo = "hado-watch";
+		};
+		E45F28192C3B8E8D00340D46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E45F27F62C3B8E8B00340D46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E45F27FD2C3B8E8B00340D46;
+			remoteInfo = "hado-watch";
+		};
+		E45F28262C3B8E8D00340D46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E45F27F62C3B8E8B00340D46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E45F28232C3B8E8D00340D46;
+			remoteInfo = "hado-watch Watch App";
+		};
+		E45F28372C3B8E8E00340D46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E45F27F62C3B8E8B00340D46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E45F28232C3B8E8D00340D46;
+			remoteInfo = "hado-watch Watch App";
+		};
+		E45F28412C3B8E8E00340D46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E45F27F62C3B8E8B00340D46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E45F28232C3B8E8D00340D46;
+			remoteInfo = "hado-watch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E45F284D2C3B8E8E00340D46 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				E45F28252C3B8E8D00340D46 /* hado-watch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E45F27FE2C3B8E8B00340D46 /* hado-watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hado-watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E45F28012C3B8E8B00340D46 /* hado_watchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hado_watchApp.swift; sourceTree = "<group>"; };
+		E45F28032C3B8E8B00340D46 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E45F28052C3B8E8D00340D46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E45F28082C3B8E8D00340D46 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E45F280E2C3B8E8D00340D46 /* hado-watchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hado-watchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E45F28122C3B8E8D00340D46 /* hado_watchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hado_watchTests.swift; sourceTree = "<group>"; };
+		E45F28182C3B8E8D00340D46 /* hado-watchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hado-watchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E45F281C2C3B8E8D00340D46 /* hado_watchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hado_watchUITests.swift; sourceTree = "<group>"; };
+		E45F281E2C3B8E8D00340D46 /* hado_watchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hado_watchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E45F28242C3B8E8D00340D46 /* hado-watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hado-watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E45F28292C3B8E8D00340D46 /* hado_watchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hado_watchApp.swift; sourceTree = "<group>"; };
+		E45F282B2C3B8E8D00340D46 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E45F282D2C3B8E8E00340D46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E45F28302C3B8E8E00340D46 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E45F28362C3B8E8E00340D46 /* hado-watch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hado-watch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E45F283A2C3B8E8E00340D46 /* hado_watch_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hado_watch_Watch_AppTests.swift; sourceTree = "<group>"; };
+		E45F28402C3B8E8E00340D46 /* hado-watch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hado-watch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E45F28442C3B8E8E00340D46 /* hado_watch_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hado_watch_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		E45F28462C3B8E8E00340D46 /* hado_watch_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hado_watch_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E4FAC8F12C3BB69100ADB7A2 /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
+		E4FAC8F72C3BB7AE00ADB7A2 /* KeyChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChain.swift; sourceTree = "<group>"; };
+		E4FAC8F92C3BB83900ADB7A2 /* MediaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaManager.swift; sourceTree = "<group>"; };
+		E4FAC8FE2C3BBA5C00ADB7A2 /* game..proto */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.protobuf; path = game..proto; sourceTree = "<group>"; };
+		E4FAC9002C3BBB3900ADB7A2 /* MotionData.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionData.pb.swift; sourceTree = "<group>"; };
+		E4FAC9062C3BBC6500ADB7A2 /* WitRigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WitRigView.swift; sourceTree = "<group>"; };
+		E4FAC9082C3BBC7D00ADB7A2 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		E4FAC90A2C3BBC9800ADB7A2 /* ParameterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterView.swift; sourceTree = "<group>"; };
+		E4FAC90D2C3BBCFD00ADB7A2 /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		E4FAC9122C3BBD5000ADB7A2 /* HeartIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartIcon.swift; sourceTree = "<group>"; };
+		E4FAC9142C3BBDAC00ADB7A2 /* WatchSessionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSessionDelegate.swift; sourceTree = "<group>"; };
+		E4FAC9162C3BBE3D00ADB7A2 /* HeartAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartAnimationView.swift; sourceTree = "<group>"; };
+		E4FAC9182C3BBE6800ADB7A2 /* HeartBeatText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartBeatText.swift; sourceTree = "<group>"; };
+		E4FAC91A2C3BC16A00ADB7A2 /* WorkoutListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutListScreen.swift; sourceTree = "<group>"; };
+		E4FAC91C2C3BDB9D00ADB7A2 /* hado-watch-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "hado-watch-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E45F27FB2C3B8E8B00340D46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45F280B2C3B8E8D00340D46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45F28152C3B8E8D00340D46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45F28212C3B8E8D00340D46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4FAC91F2C3BDC4F00ADB7A2 /* Alamofire in Frameworks */,
+				E4FAC8F62C3BB74700ADB7A2 /* SocketIO in Frameworks */,
+				E4FAC9042C3BBB7400ADB7A2 /* SwiftProtobuf in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45F28332C3B8E8E00340D46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45F283D2C3B8E8E00340D46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E45F27F52C3B8E8B00340D46 = {
+			isa = PBXGroup;
+			children = (
+				E45F28002C3B8E8B00340D46 /* hado-watch */,
+				E45F28112C3B8E8D00340D46 /* hado-watchTests */,
+				E45F281B2C3B8E8D00340D46 /* hado-watchUITests */,
+				E45F28282C3B8E8D00340D46 /* hado-watch Watch App */,
+				E45F28392C3B8E8E00340D46 /* hado-watch Watch AppTests */,
+				E45F28432C3B8E8E00340D46 /* hado-watch Watch AppUITests */,
+				E45F27FF2C3B8E8B00340D46 /* Products */,
+				E4FAC8F42C3BB73F00ADB7A2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E45F27FF2C3B8E8B00340D46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E45F27FE2C3B8E8B00340D46 /* hado-watch.app */,
+				E45F280E2C3B8E8D00340D46 /* hado-watchTests.xctest */,
+				E45F28182C3B8E8D00340D46 /* hado-watchUITests.xctest */,
+				E45F28242C3B8E8D00340D46 /* hado-watch Watch App.app */,
+				E45F28362C3B8E8E00340D46 /* hado-watch Watch AppTests.xctest */,
+				E45F28402C3B8E8E00340D46 /* hado-watch Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E45F28002C3B8E8B00340D46 /* hado-watch */ = {
+			isa = PBXGroup;
+			children = (
+				E45F28012C3B8E8B00340D46 /* hado_watchApp.swift */,
+				E45F28032C3B8E8B00340D46 /* ContentView.swift */,
+				E45F28052C3B8E8D00340D46 /* Assets.xcassets */,
+				E45F28072C3B8E8D00340D46 /* Preview Content */,
+			);
+			path = "hado-watch";
+			sourceTree = "<group>";
+		};
+		E45F28072C3B8E8D00340D46 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E45F28082C3B8E8D00340D46 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E45F28112C3B8E8D00340D46 /* hado-watchTests */ = {
+			isa = PBXGroup;
+			children = (
+				E45F28122C3B8E8D00340D46 /* hado_watchTests.swift */,
+			);
+			path = "hado-watchTests";
+			sourceTree = "<group>";
+		};
+		E45F281B2C3B8E8D00340D46 /* hado-watchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E45F281C2C3B8E8D00340D46 /* hado_watchUITests.swift */,
+				E45F281E2C3B8E8D00340D46 /* hado_watchUITestsLaunchTests.swift */,
+			);
+			path = "hado-watchUITests";
+			sourceTree = "<group>";
+		};
+		E45F28282C3B8E8D00340D46 /* hado-watch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				E4FAC91C2C3BDB9D00ADB7A2 /* hado-watch-Watch-App-Info.plist */,
+				E4FAC90C2C3BBCE000ADB7A2 /* Sports */,
+				E4FAC9052C3BBC4700ADB7A2 /* Pages */,
+				E4FAC8FB2C3BB8F500ADB7A2 /* proto */,
+				E4FAC8F02C3BB66E00ADB7A2 /* utils */,
+				E45F28292C3B8E8D00340D46 /* hado_watchApp.swift */,
+				E4FAC9112C3BBD4000ADB7A2 /* Components */,
+				E45F282B2C3B8E8D00340D46 /* ContentView.swift */,
+				E45F282D2C3B8E8E00340D46 /* Assets.xcassets */,
+				E45F282F2C3B8E8E00340D46 /* Preview Content */,
+			);
+			path = "hado-watch Watch App";
+			sourceTree = "<group>";
+		};
+		E45F282F2C3B8E8E00340D46 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E45F28302C3B8E8E00340D46 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E45F28392C3B8E8E00340D46 /* hado-watch Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				E45F283A2C3B8E8E00340D46 /* hado_watch_Watch_AppTests.swift */,
+			);
+			path = "hado-watch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		E45F28432C3B8E8E00340D46 /* hado-watch Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E45F28442C3B8E8E00340D46 /* hado_watch_Watch_AppUITests.swift */,
+				E45F28462C3B8E8E00340D46 /* hado_watch_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "hado-watch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		E4FAC8F02C3BB66E00ADB7A2 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				E4FAC8F12C3BB69100ADB7A2 /* MotionManager.swift */,
+				E4FAC8F72C3BB7AE00ADB7A2 /* KeyChain.swift */,
+				E4FAC8F92C3BB83900ADB7A2 /* MediaManager.swift */,
+				E4FAC9142C3BBDAC00ADB7A2 /* WatchSessionDelegate.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		E4FAC8F42C3BB73F00ADB7A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4FAC8FB2C3BB8F500ADB7A2 /* proto */ = {
+			isa = PBXGroup;
+			children = (
+				E4FAC8FE2C3BBA5C00ADB7A2 /* game..proto */,
+				E4FAC9002C3BBB3900ADB7A2 /* MotionData.pb.swift */,
+			);
+			path = proto;
+			sourceTree = "<group>";
+		};
+		E4FAC9052C3BBC4700ADB7A2 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				E4FAC9062C3BBC6500ADB7A2 /* WitRigView.swift */,
+				E4FAC9082C3BBC7D00ADB7A2 /* PlayerView.swift */,
+				E4FAC90A2C3BBC9800ADB7A2 /* ParameterView.swift */,
+				E4FAC91A2C3BC16A00ADB7A2 /* WorkoutListScreen.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		E4FAC90C2C3BBCE000ADB7A2 /* Sports */ = {
+			isa = PBXGroup;
+			children = (
+				E4FAC90D2C3BBCFD00ADB7A2 /* HealthKitManager.swift */,
+			);
+			path = Sports;
+			sourceTree = "<group>";
+		};
+		E4FAC9112C3BBD4000ADB7A2 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E4FAC9122C3BBD5000ADB7A2 /* HeartIcon.swift */,
+				E4FAC9162C3BBE3D00ADB7A2 /* HeartAnimationView.swift */,
+				E4FAC9182C3BBE6800ADB7A2 /* HeartBeatText.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E45F27FD2C3B8E8B00340D46 /* hado-watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E45F284E2C3B8E8E00340D46 /* Build configuration list for PBXNativeTarget "hado-watch" */;
+			buildPhases = (
+				E45F27FA2C3B8E8B00340D46 /* Sources */,
+				E45F27FB2C3B8E8B00340D46 /* Frameworks */,
+				E45F27FC2C3B8E8B00340D46 /* Resources */,
+				E45F284D2C3B8E8E00340D46 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E45F28272C3B8E8D00340D46 /* PBXTargetDependency */,
+			);
+			name = "hado-watch";
+			productName = "hado-watch";
+			productReference = E45F27FE2C3B8E8B00340D46 /* hado-watch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E45F280D2C3B8E8D00340D46 /* hado-watchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E45F28512C3B8E8E00340D46 /* Build configuration list for PBXNativeTarget "hado-watchTests" */;
+			buildPhases = (
+				E45F280A2C3B8E8D00340D46 /* Sources */,
+				E45F280B2C3B8E8D00340D46 /* Frameworks */,
+				E45F280C2C3B8E8D00340D46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E45F28102C3B8E8D00340D46 /* PBXTargetDependency */,
+			);
+			name = "hado-watchTests";
+			productName = "hado-watchTests";
+			productReference = E45F280E2C3B8E8D00340D46 /* hado-watchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E45F28172C3B8E8D00340D46 /* hado-watchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E45F28542C3B8E8E00340D46 /* Build configuration list for PBXNativeTarget "hado-watchUITests" */;
+			buildPhases = (
+				E45F28142C3B8E8D00340D46 /* Sources */,
+				E45F28152C3B8E8D00340D46 /* Frameworks */,
+				E45F28162C3B8E8D00340D46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E45F281A2C3B8E8D00340D46 /* PBXTargetDependency */,
+			);
+			name = "hado-watchUITests";
+			productName = "hado-watchUITests";
+			productReference = E45F28182C3B8E8D00340D46 /* hado-watchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		E45F28232C3B8E8D00340D46 /* hado-watch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E45F284A2C3B8E8E00340D46 /* Build configuration list for PBXNativeTarget "hado-watch Watch App" */;
+			buildPhases = (
+				E45F28202C3B8E8D00340D46 /* Sources */,
+				E45F28212C3B8E8D00340D46 /* Frameworks */,
+				E45F28222C3B8E8D00340D46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hado-watch Watch App";
+			packageProductDependencies = (
+				E4FAC8F52C3BB74700ADB7A2 /* SocketIO */,
+				E4FAC9032C3BBB7400ADB7A2 /* SwiftProtobuf */,
+				E4FAC91E2C3BDC4F00ADB7A2 /* Alamofire */,
+			);
+			productName = "hado-watch Watch App";
+			productReference = E45F28242C3B8E8D00340D46 /* hado-watch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E45F28352C3B8E8E00340D46 /* hado-watch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E45F28572C3B8E8E00340D46 /* Build configuration list for PBXNativeTarget "hado-watch Watch AppTests" */;
+			buildPhases = (
+				E45F28322C3B8E8E00340D46 /* Sources */,
+				E45F28332C3B8E8E00340D46 /* Frameworks */,
+				E45F28342C3B8E8E00340D46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E45F28382C3B8E8E00340D46 /* PBXTargetDependency */,
+			);
+			name = "hado-watch Watch AppTests";
+			productName = "hado-watch Watch AppTests";
+			productReference = E45F28362C3B8E8E00340D46 /* hado-watch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E45F283F2C3B8E8E00340D46 /* hado-watch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E45F285A2C3B8E8E00340D46 /* Build configuration list for PBXNativeTarget "hado-watch Watch AppUITests" */;
+			buildPhases = (
+				E45F283C2C3B8E8E00340D46 /* Sources */,
+				E45F283D2C3B8E8E00340D46 /* Frameworks */,
+				E45F283E2C3B8E8E00340D46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E45F28422C3B8E8E00340D46 /* PBXTargetDependency */,
+			);
+			name = "hado-watch Watch AppUITests";
+			productName = "hado-watch Watch AppUITests";
+			productReference = E45F28402C3B8E8E00340D46 /* hado-watch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E45F27F62C3B8E8B00340D46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					E45F27FD2C3B8E8B00340D46 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					E45F280D2C3B8E8D00340D46 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = E45F27FD2C3B8E8B00340D46;
+					};
+					E45F28172C3B8E8D00340D46 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = E45F27FD2C3B8E8B00340D46;
+					};
+					E45F28232C3B8E8D00340D46 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					E45F28352C3B8E8E00340D46 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = E45F28232C3B8E8D00340D46;
+					};
+					E45F283F2C3B8E8E00340D46 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = E45F28232C3B8E8D00340D46;
+					};
+				};
+			};
+			buildConfigurationList = E45F27F92C3B8E8B00340D46 /* Build configuration list for PBXProject "hado-watch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E45F27F52C3B8E8B00340D46;
+			packageReferences = (
+				E4FAC8F32C3BB70B00ADB7A2 /* XCRemoteSwiftPackageReference "socket.io-client-swift" */,
+				E4FAC9022C3BBB6200ADB7A2 /* XCRemoteSwiftPackageReference "swift-protobuf" */,
+				E4FAC91D2C3BDC3E00ADB7A2 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = E45F27FF2C3B8E8B00340D46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E45F27FD2C3B8E8B00340D46 /* hado-watch */,
+				E45F280D2C3B8E8D00340D46 /* hado-watchTests */,
+				E45F28172C3B8E8D00340D46 /* hado-watchUITests */,
+				E45F28232C3B8E8D00340D46 /* hado-watch Watch App */,
+				E45F28352C3B8E8E00340D46 /* hado-watch Watch AppTests */,
+				E45F283F2C3B8E8E00340D46 /* hado-watch Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E45F27FC2C3B8E8B00340D46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45F28092C3B8E8D00340D46 /* Preview Assets.xcassets in Resources */,
+				E45F28062C3B8E8D00340D46 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45F280C2C3B8E8D00340D46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45F28162C3B8E8D00340D46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45F28222C3B8E8D00340D46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45F28312C3B8E8E00340D46 /* Preview Assets.xcassets in Resources */,
+				E45F282E2C3B8E8E00340D46 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45F28342C3B8E8E00340D46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45F283E2C3B8E8E00340D46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E45F27FA2C3B8E8B00340D46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45F28042C3B8E8B00340D46 /* ContentView.swift in Sources */,
+				E45F28022C3B8E8B00340D46 /* hado_watchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45F280A2C3B8E8D00340D46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45F28132C3B8E8D00340D46 /* hado_watchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45F28142C3B8E8D00340D46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45F281F2C3B8E8D00340D46 /* hado_watchUITestsLaunchTests.swift in Sources */,
+				E45F281D2C3B8E8D00340D46 /* hado_watchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45F28202C3B8E8D00340D46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4FAC9152C3BBDAC00ADB7A2 /* WatchSessionDelegate.swift in Sources */,
+				E4FAC9092C3BBC7D00ADB7A2 /* PlayerView.swift in Sources */,
+				E45F282C2C3B8E8D00340D46 /* ContentView.swift in Sources */,
+				E4FAC8F82C3BB7AE00ADB7A2 /* KeyChain.swift in Sources */,
+				E4FAC9172C3BBE3D00ADB7A2 /* HeartAnimationView.swift in Sources */,
+				E4FAC8F22C3BB69100ADB7A2 /* MotionManager.swift in Sources */,
+				E4FAC8FF2C3BBA5C00ADB7A2 /* game..proto in Sources */,
+				E4FAC9072C3BBC6500ADB7A2 /* WitRigView.swift in Sources */,
+				E4FAC90B2C3BBC9800ADB7A2 /* ParameterView.swift in Sources */,
+				E4FAC91B2C3BC16A00ADB7A2 /* WorkoutListScreen.swift in Sources */,
+				E4FAC9132C3BBD5000ADB7A2 /* HeartIcon.swift in Sources */,
+				E4FAC9012C3BBB3900ADB7A2 /* MotionData.pb.swift in Sources */,
+				E4FAC9192C3BBE6800ADB7A2 /* HeartBeatText.swift in Sources */,
+				E4FAC90E2C3BBCFD00ADB7A2 /* HealthKitManager.swift in Sources */,
+				E45F282A2C3B8E8D00340D46 /* hado_watchApp.swift in Sources */,
+				E4FAC8FA2C3BB83900ADB7A2 /* MediaManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45F28322C3B8E8E00340D46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45F283B2C3B8E8E00340D46 /* hado_watch_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45F283C2C3B8E8E00340D46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45F28472C3B8E8E00340D46 /* hado_watch_Watch_AppUITestsLaunchTests.swift in Sources */,
+				E45F28452C3B8E8E00340D46 /* hado_watch_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E45F28102C3B8E8D00340D46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E45F27FD2C3B8E8B00340D46 /* hado-watch */;
+			targetProxy = E45F280F2C3B8E8D00340D46 /* PBXContainerItemProxy */;
+		};
+		E45F281A2C3B8E8D00340D46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E45F27FD2C3B8E8B00340D46 /* hado-watch */;
+			targetProxy = E45F28192C3B8E8D00340D46 /* PBXContainerItemProxy */;
+		};
+		E45F28272C3B8E8D00340D46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E45F28232C3B8E8D00340D46 /* hado-watch Watch App */;
+			targetProxy = E45F28262C3B8E8D00340D46 /* PBXContainerItemProxy */;
+		};
+		E45F28382C3B8E8E00340D46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E45F28232C3B8E8D00340D46 /* hado-watch Watch App */;
+			targetProxy = E45F28372C3B8E8E00340D46 /* PBXContainerItemProxy */;
+		};
+		E45F28422C3B8E8E00340D46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E45F28232C3B8E8D00340D46 /* hado-watch Watch App */;
+			targetProxy = E45F28412C3B8E8E00340D46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E45F28482C3B8E8E00340D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E45F28492C3B8E8E00340D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E45F284B2C3B8E8E00340D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hado-watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 5H3WZ7BJYK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "hado-watch-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "hado-watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "hado.com.swift.hado.watch.hado-watch";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hado.com.swift.hado.watch.hado-watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		E45F284C2C3B8E8E00340D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hado-watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 5H3WZ7BJYK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "hado-watch-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "hado-watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "hado.com.swift.hado.watch.hado-watch";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hado.com.swift.hado.watch.hado-watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		E45F284F2C3B8E8E00340D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hado-watch/Preview Content\"";
+				DEVELOPMENT_TEAM = 5H3WZ7BJYK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "hado-watch";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hado.com.swift.hado.watch.hado-watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E45F28502C3B8E8E00340D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hado-watch/Preview Content\"";
+				DEVELOPMENT_TEAM = 5H3WZ7BJYK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "hado-watch";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hado.com.swift.hado.watch.hado-watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E45F28522C3B8E8E00340D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5H3WZ7BJYK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hado.com.swift.hado.watch.hado-watchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hado-watch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hado-watch";
+			};
+			name = Debug;
+		};
+		E45F28532C3B8E8E00340D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5H3WZ7BJYK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hado.com.swift.hado.watch.hado-watchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hado-watch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hado-watch";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E45F28552C3B8E8E00340D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5H3WZ7BJYK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hado.com.swift.hado.watch.hado-watchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "hado-watch";
+			};
+			name = Debug;
+		};
+		E45F28562C3B8E8E00340D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5H3WZ7BJYK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hado.com.swift.hado.watch.hado-watchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "hado-watch";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E45F28582C3B8E8E00340D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5H3WZ7BJYK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hado.com.swift.hado.watch.hado-watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hado-watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hado-watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		E45F28592C3B8E8E00340D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5H3WZ7BJYK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hado.com.swift.hado.watch.hado-watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hado-watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hado-watch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		E45F285B2C3B8E8E00340D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5H3WZ7BJYK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hado.com.swift.hado.watch.hado-watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "hado-watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		E45F285C2C3B8E8E00340D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5H3WZ7BJYK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hado.com.swift.hado.watch.hado-watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "hado-watch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E45F27F92C3B8E8B00340D46 /* Build configuration list for PBXProject "hado-watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E45F28482C3B8E8E00340D46 /* Debug */,
+				E45F28492C3B8E8E00340D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E45F284A2C3B8E8E00340D46 /* Build configuration list for PBXNativeTarget "hado-watch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E45F284B2C3B8E8E00340D46 /* Debug */,
+				E45F284C2C3B8E8E00340D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E45F284E2C3B8E8E00340D46 /* Build configuration list for PBXNativeTarget "hado-watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E45F284F2C3B8E8E00340D46 /* Debug */,
+				E45F28502C3B8E8E00340D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E45F28512C3B8E8E00340D46 /* Build configuration list for PBXNativeTarget "hado-watchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E45F28522C3B8E8E00340D46 /* Debug */,
+				E45F28532C3B8E8E00340D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E45F28542C3B8E8E00340D46 /* Build configuration list for PBXNativeTarget "hado-watchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E45F28552C3B8E8E00340D46 /* Debug */,
+				E45F28562C3B8E8E00340D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E45F28572C3B8E8E00340D46 /* Build configuration list for PBXNativeTarget "hado-watch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E45F28582C3B8E8E00340D46 /* Debug */,
+				E45F28592C3B8E8E00340D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E45F285A2C3B8E8E00340D46 /* Build configuration list for PBXNativeTarget "hado-watch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E45F285B2C3B8E8E00340D46 /* Debug */,
+				E45F285C2C3B8E8E00340D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E4FAC8F32C3BB70B00ADB7A2 /* XCRemoteSwiftPackageReference "socket.io-client-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/socketio/socket.io-client-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		E4FAC9022C3BBB6200ADB7A2 /* XCRemoteSwiftPackageReference "swift-protobuf" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-protobuf.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.26.0;
+			};
+		};
+		E4FAC91D2C3BDC3E00ADB7A2 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E4FAC8F52C3BB74700ADB7A2 /* SocketIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E4FAC8F32C3BB70B00ADB7A2 /* XCRemoteSwiftPackageReference "socket.io-client-swift" */;
+			productName = SocketIO;
+		};
+		E4FAC9032C3BBB7400ADB7A2 /* SwiftProtobuf */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E4FAC9022C3BBB6200ADB7A2 /* XCRemoteSwiftPackageReference "swift-protobuf" */;
+			productName = SwiftProtobuf;
+		};
+		E4FAC91E2C3BDC4F00ADB7A2 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E4FAC91D2C3BDC3E00ADB7A2 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E45F27F62C3B8E8B00340D46 /* Project object */;
+}

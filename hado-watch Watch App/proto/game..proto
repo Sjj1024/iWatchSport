@@ -1,0 +1,16 @@
+
+//protoc --swift_out=. *
+// 目录下执行生产
+syntax = "proto3";
+
+message MotionData {
+    double roll = 1;
+    double pitch = 2;
+    double yaw = 3;
+    double accX = 4;
+    double accY = 5;
+    double accZ = 6;
+    string armDirection = 7;
+}
+
+
