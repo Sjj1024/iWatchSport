@@ -24,6 +24,8 @@
 		E4D250F22C3CD94A00DFE42A /* MotionData.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D250F02C3CD94A00DFE42A /* MotionData.pb.swift */; };
 		E4D250F32C3CD94A00DFE42A /* MotionData.proto in Sources */ = {isa = PBXBuildFile; fileRef = E4D250F12C3CD94A00DFE42A /* MotionData.proto */; };
 		E4D250F52C3CD99F00DFE42A /* SwiftProtobuf in Frameworks */ = {isa = PBXBuildFile; productRef = E4D250F42C3CD99F00DFE42A /* SwiftProtobuf */; };
+		E4D250FA2C3D17C500DFE42A /* iphone.PNG in Resources */ = {isa = PBXBuildFile; fileRef = E4D250F82C3D17C500DFE42A /* iphone.PNG */; };
+		E4D250FB2C3D17C500DFE42A /* watch.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D250F92C3D17C500DFE42A /* watch.png */; };
 		E4FAC8F22C3BB69100ADB7A2 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FAC8F12C3BB69100ADB7A2 /* MotionManager.swift */; };
 		E4FAC8F62C3BB74700ADB7A2 /* SocketIO in Frameworks */ = {isa = PBXBuildFile; productRef = E4FAC8F52C3BB74700ADB7A2 /* SocketIO */; };
 		E4FAC8F82C3BB7AE00ADB7A2 /* KeyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FAC8F72C3BB7AE00ADB7A2 /* KeyChain.swift */; };
@@ -112,6 +114,8 @@
 		E4D250F02C3CD94A00DFE42A /* MotionData.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionData.pb.swift; sourceTree = "<group>"; };
 		E4D250F12C3CD94A00DFE42A /* MotionData.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.protobuf; path = MotionData.proto; sourceTree = "<group>"; };
 		E4D250F62C3D0BCD00DFE42A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E4D250F82C3D17C500DFE42A /* iphone.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone.PNG; sourceTree = "<group>"; };
+		E4D250F92C3D17C500DFE42A /* watch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = watch.png; sourceTree = "<group>"; };
 		E4FAC8F12C3BB69100ADB7A2 /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
 		E4FAC8F72C3BB7AE00ADB7A2 /* KeyChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChain.swift; sourceTree = "<group>"; };
 		E4FAC8F92C3BB83900ADB7A2 /* MediaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaManager.swift; sourceTree = "<group>"; };
@@ -176,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				E4D250F62C3D0BCD00DFE42A /* README.md */,
+				E4D250F72C3D170700DFE42A /* Resources */,
 				E45F28002C3B8E8B00340D46 /* hado-watch */,
 				E45F28112C3B8E8D00340D46 /* hado-watchTests */,
 				E45F281B2C3B8E8D00340D46 /* hado-watchUITests */,
@@ -302,6 +307,15 @@
 				E4D250F12C3CD94A00DFE42A /* MotionData.proto */,
 			);
 			path = Proto;
+			sourceTree = "<group>";
+		};
+		E4D250F72C3D170700DFE42A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E4D250F82C3D17C500DFE42A /* iphone.PNG */,
+				E4D250F92C3D17C500DFE42A /* watch.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		E4FAC8F02C3BB66E00ADB7A2 /* utils */ = {
@@ -523,8 +537,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4D250FA2C3D17C500DFE42A /* iphone.PNG in Resources */,
 				E45F28092C3B8E8D00340D46 /* Preview Assets.xcassets in Resources */,
 				E45F28062C3B8E8D00340D46 /* Assets.xcassets in Resources */,
+				E4D250FB2C3D17C500DFE42A /* watch.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
