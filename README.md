@@ -4,10 +4,10 @@
 
 
 # 项目依赖
-感谢以下开源依赖库的支持
-Alamofire：
-SocketIO：
-SwiftProtobuf：
+感谢以下开源依赖库的支持  
+Alamofire：https://github.com/Alamofire/Alamofire  
+SocketIO：https://github.com/socketio/socket.io-client-swift  
+SwiftProtobuf：https://github.com/apple/swift-protobuf  
 
 
 
