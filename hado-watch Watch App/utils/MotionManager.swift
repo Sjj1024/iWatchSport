@@ -163,7 +163,8 @@ class MotionManager: NSObject, ObservableObject {
                                             "accY": deviceMotion?.userAcceleration.y ?? 0,
                                             "accZ": deviceMotion?.userAcceleration.z ?? 0]
         sendAlamofireData(motionData: motionJson)
-
+        
+        // 使用WCSession向iphone发送消息
         if WCSession.default.isReachable {
             WCSession.default.sendMessageData(data, replyHandler: { _ in
                 print("Data sent successfully")

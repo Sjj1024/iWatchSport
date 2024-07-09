@@ -20,8 +20,10 @@
 		E45F282E2C3B8E8E00340D46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E45F282D2C3B8E8E00340D46 /* Assets.xcassets */; };
 		E45F28312C3B8E8E00340D46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E45F28302C3B8E8E00340D46 /* Preview Assets.xcassets */; };
 		E45F283B2C3B8E8E00340D46 /* hado_watch_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45F283A2C3B8E8E00340D46 /* hado_watch_Watch_AppTests.swift */; };
-		E45F28452C3B8E8E00340D46 /* hado_watch_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45F28442C3B8E8E00340D46 /* hado_watch_Watch_AppUITests.swift */; };
-		E45F28472C3B8E8E00340D46 /* hado_watch_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45F28462C3B8E8E00340D46 /* hado_watch_Watch_AppUITestsLaunchTests.swift */; };
+		E4D250EE2C3CD8FD00DFE42A /* WatchDel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D250ED2C3CD8FD00DFE42A /* WatchDel.swift */; };
+		E4D250F22C3CD94A00DFE42A /* MotionData.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D250F02C3CD94A00DFE42A /* MotionData.pb.swift */; };
+		E4D250F32C3CD94A00DFE42A /* MotionData.proto in Sources */ = {isa = PBXBuildFile; fileRef = E4D250F12C3CD94A00DFE42A /* MotionData.proto */; };
+		E4D250F52C3CD99F00DFE42A /* SwiftProtobuf in Frameworks */ = {isa = PBXBuildFile; productRef = E4D250F42C3CD99F00DFE42A /* SwiftProtobuf */; };
 		E4FAC8F22C3BB69100ADB7A2 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FAC8F12C3BB69100ADB7A2 /* MotionManager.swift */; };
 		E4FAC8F62C3BB74700ADB7A2 /* SocketIO in Frameworks */ = {isa = PBXBuildFile; productRef = E4FAC8F52C3BB74700ADB7A2 /* SocketIO */; };
 		E4FAC8F82C3BB7AE00ADB7A2 /* KeyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FAC8F72C3BB7AE00ADB7A2 /* KeyChain.swift */; };
@@ -70,13 +72,6 @@
 			remoteGlobalIDString = E45F28232C3B8E8D00340D46;
 			remoteInfo = "hado-watch Watch App";
 		};
-		E45F28412C3B8E8E00340D46 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E45F27F62C3B8E8B00340D46 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E45F28232C3B8E8D00340D46;
-			remoteInfo = "hado-watch Watch App";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -111,9 +106,12 @@
 		E45F28302C3B8E8E00340D46 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E45F28362C3B8E8E00340D46 /* hado-watch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hado-watch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E45F283A2C3B8E8E00340D46 /* hado_watch_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hado_watch_Watch_AppTests.swift; sourceTree = "<group>"; };
-		E45F28402C3B8E8E00340D46 /* hado-watch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hado-watch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E45F28442C3B8E8E00340D46 /* hado_watch_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hado_watch_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		E45F28462C3B8E8E00340D46 /* hado_watch_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hado_watch_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E4D250ED2C3CD8FD00DFE42A /* WatchDel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchDel.swift; sourceTree = "<group>"; };
+		E4D250F02C3CD94A00DFE42A /* MotionData.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionData.pb.swift; sourceTree = "<group>"; };
+		E4D250F12C3CD94A00DFE42A /* MotionData.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.protobuf; path = MotionData.proto; sourceTree = "<group>"; };
+		E4D250F62C3D0BCD00DFE42A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E4FAC8F12C3BB69100ADB7A2 /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
 		E4FAC8F72C3BB7AE00ADB7A2 /* KeyChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChain.swift; sourceTree = "<group>"; };
 		E4FAC8F92C3BB83900ADB7A2 /* MediaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaManager.swift; sourceTree = "<group>"; };
@@ -136,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4D250F52C3CD99F00DFE42A /* SwiftProtobuf in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,19 +169,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E45F283D2C3B8E8E00340D46 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		E45F27F52C3B8E8B00340D46 = {
 			isa = PBXGroup;
 			children = (
+				E4D250F62C3D0BCD00DFE42A /* README.md */,
 				E45F28002C3B8E8B00340D46 /* hado-watch */,
 				E45F28112C3B8E8D00340D46 /* hado-watchTests */,
 				E45F281B2C3B8E8D00340D46 /* hado-watchUITests */,
@@ -202,7 +195,6 @@
 				E45F28182C3B8E8D00340D46 /* hado-watchUITests.xctest */,
 				E45F28242C3B8E8D00340D46 /* hado-watch Watch App.app */,
 				E45F28362C3B8E8E00340D46 /* hado-watch Watch AppTests.xctest */,
-				E45F28402C3B8E8E00340D46 /* hado-watch Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -210,8 +202,11 @@
 		E45F28002C3B8E8B00340D46 /* hado-watch */ = {
 			isa = PBXGroup;
 			children = (
+				E4D250EB2C3CD66400DFE42A /* Pages */,
 				E45F28012C3B8E8B00340D46 /* hado_watchApp.swift */,
 				E45F28032C3B8E8B00340D46 /* ContentView.swift */,
+				E4D250EF2C3CD92100DFE42A /* Proto */,
+				E4D250EC2C3CD8D100DFE42A /* Delegate */,
 				E45F28052C3B8E8D00340D46 /* Assets.xcassets */,
 				E45F28072C3B8E8D00340D46 /* Preview Content */,
 			);
@@ -283,6 +278,30 @@
 				E45F28462C3B8E8E00340D46 /* hado_watch_Watch_AppUITestsLaunchTests.swift */,
 			);
 			path = "hado-watch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		E4D250EB2C3CD66400DFE42A /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		E4D250EC2C3CD8D100DFE42A /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				E4D250ED2C3CD8FD00DFE42A /* WatchDel.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		E4D250EF2C3CD92100DFE42A /* Proto */ = {
+			isa = PBXGroup;
+			children = (
+				E4D250F02C3CD94A00DFE42A /* MotionData.pb.swift */,
+				E4D250F12C3CD94A00DFE42A /* MotionData.proto */,
+			);
+			path = Proto;
 			sourceTree = "<group>";
 		};
 		E4FAC8F02C3BB66E00ADB7A2 /* utils */ = {
@@ -359,6 +378,9 @@
 				E45F28272C3B8E8D00340D46 /* PBXTargetDependency */,
 			);
 			name = "hado-watch";
+			packageProductDependencies = (
+				E4D250F42C3CD99F00DFE42A /* SwiftProtobuf */,
+			);
 			productName = "hado-watch";
 			productReference = E45F27FE2C3B8E8B00340D46 /* hado-watch.app */;
 			productType = "com.apple.product-type.application";
@@ -439,24 +461,6 @@
 			productReference = E45F28362C3B8E8E00340D46 /* hado-watch Watch AppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E45F283F2C3B8E8E00340D46 /* hado-watch Watch AppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E45F285A2C3B8E8E00340D46 /* Build configuration list for PBXNativeTarget "hado-watch Watch AppUITests" */;
-			buildPhases = (
-				E45F283C2C3B8E8E00340D46 /* Sources */,
-				E45F283D2C3B8E8E00340D46 /* Frameworks */,
-				E45F283E2C3B8E8E00340D46 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E45F28422C3B8E8E00340D46 /* PBXTargetDependency */,
-			);
-			name = "hado-watch Watch AppUITests";
-			productName = "hado-watch Watch AppUITests";
-			productReference = E45F28402C3B8E8E00340D46 /* hado-watch Watch AppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -485,10 +489,6 @@
 						CreatedOnToolsVersion = 15.4;
 						TestTargetID = E45F28232C3B8E8D00340D46;
 					};
-					E45F283F2C3B8E8E00340D46 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = E45F28232C3B8E8D00340D46;
-					};
 				};
 			};
 			buildConfigurationList = E45F27F92C3B8E8B00340D46 /* Build configuration list for PBXProject "hado-watch" */;
@@ -514,7 +514,6 @@
 				E45F28172C3B8E8D00340D46 /* hado-watchUITests */,
 				E45F28232C3B8E8D00340D46 /* hado-watch Watch App */,
 				E45F28352C3B8E8E00340D46 /* hado-watch Watch AppTests */,
-				E45F283F2C3B8E8E00340D46 /* hado-watch Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -559,13 +558,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E45F283E2C3B8E8E00340D46 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -575,6 +567,9 @@
 			files = (
 				E45F28042C3B8E8B00340D46 /* ContentView.swift in Sources */,
 				E45F28022C3B8E8B00340D46 /* hado_watchApp.swift in Sources */,
+				E4D250F22C3CD94A00DFE42A /* MotionData.pb.swift in Sources */,
+				E4D250F32C3CD94A00DFE42A /* MotionData.proto in Sources */,
+				E4D250EE2C3CD8FD00DFE42A /* WatchDel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -626,15 +621,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E45F283C2C3B8E8E00340D46 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E45F28472C3B8E8E00340D46 /* hado_watch_Watch_AppUITestsLaunchTests.swift in Sources */,
-				E45F28452C3B8E8E00340D46 /* hado_watch_Watch_AppUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -657,11 +643,6 @@
 			isa = PBXTargetDependency;
 			target = E45F28232C3B8E8D00340D46 /* hado-watch Watch App */;
 			targetProxy = E45F28372C3B8E8E00340D46 /* PBXContainerItemProxy */;
-		};
-		E45F28422C3B8E8E00340D46 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E45F28232C3B8E8D00340D46 /* hado-watch Watch App */;
-			targetProxy = E45F28412C3B8E8E00340D46 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1039,47 +1020,6 @@
 			};
 			name = Release;
 		};
-		E45F285B2C3B8E8E00340D46 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5H3WZ7BJYK;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "hado.com.swift.hado.watch.hado-watch-Watch-AppUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				TEST_TARGET_NAME = "hado-watch Watch App";
-				WATCHOS_DEPLOYMENT_TARGET = 10.5;
-			};
-			name = Debug;
-		};
-		E45F285C2C3B8E8E00340D46 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5H3WZ7BJYK;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "hado.com.swift.hado.watch.hado-watch-Watch-AppUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				TEST_TARGET_NAME = "hado-watch Watch App";
-				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 10.5;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1137,15 +1077,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E45F285A2C3B8E8E00340D46 /* Build configuration list for PBXNativeTarget "hado-watch Watch AppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E45F285B2C3B8E8E00340D46 /* Debug */,
-				E45F285C2C3B8E8E00340D46 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
@@ -1176,6 +1107,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		E4D250F42C3CD99F00DFE42A /* SwiftProtobuf */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E4FAC9022C3BBB6200ADB7A2 /* XCRemoteSwiftPackageReference "swift-protobuf" */;
+			productName = SwiftProtobuf;
+		};
 		E4FAC8F52C3BB74700ADB7A2 /* SocketIO */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = E4FAC8F32C3BB70B00ADB7A2 /* XCRemoteSwiftPackageReference "socket.io-client-swift" */;
