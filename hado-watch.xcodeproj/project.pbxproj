@@ -130,7 +130,7 @@
 		E4FAC9162C3BBE3D00ADB7A2 /* HeartAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartAnimationView.swift; sourceTree = "<group>"; };
 		E4FAC9182C3BBE6800ADB7A2 /* HeartBeatText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartBeatText.swift; sourceTree = "<group>"; };
 		E4FAC91A2C3BC16A00ADB7A2 /* WorkoutListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutListScreen.swift; sourceTree = "<group>"; };
-		E4FAC91C2C3BDB9D00ADB7A2 /* hado-watch-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "hado-watch-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		E4FAC91C2C3BDB9D00ADB7A2 /* hado-watch-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hado-watch-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

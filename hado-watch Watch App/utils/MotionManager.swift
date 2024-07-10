@@ -30,7 +30,7 @@ class MotionManager: NSObject, ObservableObject {
     override init() {
         self.motionManager = CMMotionManager()
         self.deviceMotion = nil
-        self.socketManager = SocketManager(socketURL: URL(string: "http://192.168.1.52:8998")!, config: [.log(true), .compress])
+        self.socketManager = SocketManager(socketURL: URL(string: "http://192.168.1.217:12345/")!, config: [.log(true), .compress])
         self.socket = socketManager.defaultSocket
         super.init()
         // 启动设备运动更新
@@ -162,8 +162,14 @@ class MotionManager: NSObject, ObservableObject {
                                             "accX": deviceMotion?.userAcceleration.x ?? 0,
                                             "accY": deviceMotion?.userAcceleration.y ?? 0,
                                             "accZ": deviceMotion?.userAcceleration.z ?? 0]
+        // 使用http发送json消息
         sendAlamofireData(motionData: motionJson)
         
+        sendAlamofireProto(motionData: data)
+
+        // 使用socketio
+        // sendMotionDataViaSocketIO(motionData: data)
+
         // 使用WCSession向iphone发送消息
         if WCSession.default.isReachable {
             WCSession.default.sendMessageData(data, replyHandler: { _ in
@@ -174,21 +180,48 @@ class MotionManager: NSObject, ObservableObject {
         }
     }
 
+    func sendAlamofireProto(motionData: Data) {
+        print("sendAlamofireProto--data:\(motionData)")
+        // 设置请求的URL
+        let url = "http://192.168.12.2:12345/"
+        // 创建请求
+        var request = URLRequest(url: URL(string: url)!)
+        request.httpMethod = "POST"
+        request.setValue("application/x-protobuf", forHTTPHeaderField: "Content-Type")
+        request.httpBody = motionData
+
+        // 使用Alamofire发送请求
+        AF.request(request).response { response in
+            switch response.result {
+            case let .success(data):
+                if let data = data {
+                    // 处理响应数据
+                    print("sendAlamofireProto Response data: \(data)")
+                } else {
+                    print("sendAlamofireProto No data received")
+                }
+            case let .failure(error):
+                // 处理错误
+                print("Error: \(error)")
+            }
+        }
+    }
+
     func sendAlamofireData(motionData: [String: Double]) {
         print("sendAlamofireData--data:\(motionData)")
         // 准备一个url
-        let url = "http://192.168.1.52:8998/watch"
+        let url = "http://192.168.12.97:8998/watch"
         // 使用Alamofile发起请求
         AF.request(url, method: .post, parameters: motionData, encoding: JSONEncoding.default).responseData(completionHandler: { res in
             // response.result为枚举类型，所以需要使用switch
             switch res.result {
-                case let .success(Data):
-                    // 将Data类型的数据转为Json字符串
-                    let jsonString = try? JSONSerialization.jsonObject(with: Data)
-                    // 打印json字符串
-                    print("success\(String(describing: jsonString))")
-                case let .failure(error):
-                    print("error\(error)")
+            case let .success(Data):
+                // 将Data类型的数据转为Json字符串
+                let jsonString = try? JSONSerialization.jsonObject(with: Data)
+                // 打印json字符串
+                print("success\(String(describing: jsonString))")
+            case let .failure(error):
+                print("error\(error)")
             }
             // print("响应数据：\(res.result)")
         })
